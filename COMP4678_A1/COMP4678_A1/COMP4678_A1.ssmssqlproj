@@ -18,7 +18,68 @@
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="DBSCRIPT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4AAREJ6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4AAREJ6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DBSCRIPT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="q_add_constraints.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4AAREJ6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4AAREJ6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>q_add_constraints.sql</FullPath>
+        </FileNode>
+        <FileNode Name="q_create_tbl_Customers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4AAREJ6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4AAREJ6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>q_create_tbl_Customers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="q_create_tbl_Sales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4AAREJ6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4AAREJ6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>q_create_tbl_Sales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="q_list_high_invoice.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4AAREJ6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4AAREJ6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>q_list_high_invoice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="q_list_products.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4AAREJ6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4AAREJ6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>q_list_products.sql</FullPath>
+        </FileNode>
+        <FileNode Name="q_list_records.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4AAREJ6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4AAREJ6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>q_list_records.sql</FullPath>
+        </FileNode>
+        <FileNode Name="q_list_Vancouver.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4AAREJ6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4AAREJ6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>q_list_Vancouver.sql</FullPath>
+        </FileNode>
+        <FileNode Name="q_num_customers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4AAREJ6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4AAREJ6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>q_num_customers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="q_recent_invoices.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4AAREJ6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4AAREJ6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>q_recent_invoices.sql</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
       <Items />
