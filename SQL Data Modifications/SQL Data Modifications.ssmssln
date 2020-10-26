@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Data Modifications", "SQL Data Modifications\SQL Data Modifications.ssmssqlproj", "{2EA97FCA-0FB0-4535-BA87-8C8FB8FDE28A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EA97FCA-0FB0-4535-BA87-8C8FB8FDE28A}.Default|Default.ActiveCfg = Default
+		{23DA67D6-624A-4E65-96CD-0A66A9EEC17E}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06994DF9-D083-48FE-B74B-E5E3E121ED27}
+	EndGlobalSection
+EndGlobal
