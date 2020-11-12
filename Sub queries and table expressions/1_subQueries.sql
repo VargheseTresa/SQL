@@ -190,3 +190,32 @@ WHERE InvoiceDate IN
 	WHERE I1.CustomerId = I2.CustomerId
 );
 
+
+
+-- List all customers from Canada (using a subquery)
+
+SELECT CustomerId, FirstName, LastName,Company, Address, City, State, Country
+FROM dbo.Customer
+WHERE CustomerId IN
+(
+	SELECT CustomerId
+	FROM dbo.Invoice
+	WHERE BillingCountry = 'Canada'
+);
+
+
+
+--List all customers from Germany and include when it was invoiced first
+
+SELECT *
+FROM dbo.Invoice AS I1
+WHERE BillingCountry = N'Germany'
+AND InvoiceDate = 
+(
+	SELECT MIN(InvoiceDate)
+	FROM dbo.Invoice AS I2
+	WHERE I1.CustomerId = I2.CustomerId
+);
+
+
+
