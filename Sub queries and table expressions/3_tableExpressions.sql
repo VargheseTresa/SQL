@@ -60,6 +60,24 @@ FROM
 ) AS D
 WHERE rownum<=2;
 
+--similar result using APPLY
+
+SELECT DISTINCT categoryid,	
+	A.*
+FROM Production.Products AS P1
+	CROSS APPLY 
+	(
+		SELECT TOP(2) productid,
+		productname,
+		unitprice	
+		FROM Production.Products AS P2
+		WHERE P1.categoryid = P2.categoryid
+		ORDER BY unitprice
+	) AS A
+order by categoryid
+
+
+
 -- Here, inner query is specified in the FROM clause of outer query
 -- The outer query can reference the column aliases used in inner query
 

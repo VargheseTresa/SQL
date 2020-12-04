@@ -65,6 +65,7 @@ PIVOT( SUM( freight ) FOR shipperid IN ( [1], [2], [3] ) ) AS P;
 --------------------------------------------------
 --				Use of UNPIVOT
 --------------------------------------------------
+DROP TABLE IF EXISTS Sales.FreightTotals;
 
 WITH PivotData AS
 (
@@ -78,6 +79,8 @@ SELECT *
 INTO Sales.FreightTotals
 FROM PivotData
 PIVOT( SUM( freight ) FOR shipperid IN ( [1], [2], [3] ) ) AS P;
+
+-- This stores pivoted data into table Sales.FreightTotals
 
 -- Let's see what do we have in this table
 SELECT * 
